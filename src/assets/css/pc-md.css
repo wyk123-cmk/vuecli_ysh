@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共样式*/
+	body{max-width:1200px; margin:0 auto; color:#333;background: #f7f7f7; }
+	*{color:#333;text-decoration: none;font-style: normal;list-style: none;font-weight: normal; font-family: 'Helvetica Neue',Helvetica,sans-serif;margin:0; padding:0;  outline: none; border:none;font-size: 14px;}
+
+/*公共列表样式*/
+.fwxy{display:flex;padding: 14px;align-items: center;}
+	.xzk{width:18px;height: 18px;border-radius: 18px;background: #fff;-webkit-appearance:none;border:1px solid #eee;}
+	.xzk:checked{background:url(../images/chosed.svg) no-repeat center ;border:1px solid #4385f5;}
+.xzk.xy{width:16px;height:16px;margin-right: 4px;background: #f7f7f7;}
+	.xzk.xy:checked{background:url(../images/chosed.svg) no-repeat center ;border:1px solid #4385f5;}
+
+/*顶部样式*/
+	header{height:44px;background: #fff;padding:0 10px; position:fixed;left: 0; right: 0; max-width:1200px; margin:0 auto;z-index: 3;box-sizing: border-box;}
+	header .tab-title{right: 40px;left: 40px;display: inline-block;overflow: hidden;width: auto;margin: 0;text-overflow: ellipsis;position: absolute;line-height: 44px;font-size: 14px;}
+	header .tab-title1{display: inline-block;overflow: hidden;width: auto;margin: 0;text-overflow: ellipsis;position: absolute;line-height: 44px;font-size: 14px;}
+	header .icon-back{float: left;margin-right: -10px;margin-left: -10px;padding:12px;font-size:18px;position: relative;z-index: 20;}
+	header .menu{float:right;position: relative;padding-top: 12px;}
+
+
+
+	
+	/*底部样式*/
+	.footer{height: 59px;background-color: #F8F8F8;overflow: hidden;position: fixed;bottom: 0;width: 100%;left: 0;right: 0;max-width: 768px;margin: 0 auto;}
+	.footer li{float:left;width:25%;text-align: center;padding-top: 7px;}
+	.footer li span{font-size:22px;}
+	.footer li a{font-size:14px;position: relative;}
+	.footer li a i{font-size:12px;background:red;color:#fff;position: absolute;width:10px;height:10px;border-radius: 10px;right: 4px;}
+	.footer li:hover a,.footer li:hover a span{color:#50a8ff;}
+
+/*我的页面*/
+.content{
+	padding-top: 44px;
+}
+
+.nrwk1 li h2 {
+	font-size: 12px;
+	color: #999;
+	line-height: 12px;
+	padding-top: 4px;
+}
+.content{
+	padding-top: 44px;
+
+}
+.sswk-ss {background-image: url(../images/22.png);background-repeat: no-repeat;background-position: 6px center;border: 1px solid #eeeeee;font-size: 12px;line-height: 12px;height:28px;text-indent: 28px;width: 240px;float: left;}
+.sswk-select { float: left; border: 1px solid #EEE; width: 130px; margin-left: 20px; font-size: 12px; line-height: 30px; height: 28px; border-radius: 2px; text-indent: 4px; }
+.sswk-button { background-color: #e06f42; font-size: 14px; line-height:30px; color: #FFF; border:0; padding:0 15px; margin-left: 12px; border-radius: 2px; float: left; }
+.sswk-button1 { background-color: #ffffff; font-size: 14px; line-height:30px; height:30px; color: #999999; padding:0 15px ; margin-left: 12px; border: 1px solid #eeeeee; border-radius: 2px; float: left; }
+.sswk { overflow: hidden; background: #fff;padding: 14px ;border-top: 1px solid #f7f7f7;}
+.sswk-select { float: left; border: 1px solid #EEE; width: 130px; margin-left: 22px; font-size: 12px; line-height: 30px; height: 30px; border-radius: 2px; text-indent: 4px;background: #fff; }
+.sswk-button {background-color: #4285F4;font-size: 14px;line-height: 30px;color: #FFF;border-top-width: 0px;border-right-width: 0px;border-bottom-width: 0px;padding-right: 12px;padding-left: 12px;margin-left: 12px;border-radius: 2px;float: left;}
+.sswk-button1 {background-color: #ffffff;font-size: 14px;line-height: 28px;color: #999999;padding-right: 12px;padding-left: 12px;margin-left: 12px;border: 1px solid #eeeeee;border-radius: 2px;float: left;}
+.sswk a { float: right; display: block; background-color: #169bd5; color: #FFF; font-size: 14px; line-height: 14px; padding-top: 8px; padding-right: 22px; padding-bottom: 8px; padding-left: 22px; border-radius: 2px; margin-right: 25px; }
+
+/*我-个人中心*/

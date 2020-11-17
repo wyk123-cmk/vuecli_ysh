@@ -1,0 +1,19 @@
+ @font-face {font-family: "iconfont";src:url('../fonts/iconfont.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/}
+
+.iconfont {font-family:"iconfont" !important;font-style:normal;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-back:before{content: "\e646";}
+.footer1:before{content: "\e6e0";}
+.footer2:before{content: "\e618";}
+.footer3:before{content: "\e62a";}
+.footer4:before{content: "\e601";}
+.xia:after{content: "\e629";font-size: 12px; padding-left: 6px;}
+.yjt:after{content: "\e644";color: #DBDBDB;padding-left: 6px;font-weight: normal;}
+
+.radio{ -webkit-appearance: none;}
+.radio[type="checkbox"]::before{content: "\e411";font-size:18px;color:#bbb;}
+.radio[type="checkbox"]:checked::before{content: "\e442";font-size:18px;color:#4285f4;}
+
+.radio[type="radio"]::before{content: "\e411";font-size:18px;color:#bbb;}
+.radio[type="radio"]:checked::before{content: "\e442";font-size:18px;color:#4285f4;}
